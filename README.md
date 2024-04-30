@@ -2,5 +2,9 @@
 <h2>Breve Resumo</h2>
 <p></p>
 <h2>Requisitos</h2>
+<ul>
+  <li>Java 8+</li>
+  <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson">Gson do google</a></li>
+</ul>
 <h2>Como funciona?</h2>
 <p></p>
