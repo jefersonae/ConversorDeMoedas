@@ -5,7 +5,6 @@ import src.modelos.Conversao;
 import src.modelos.Menu;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Principal {
