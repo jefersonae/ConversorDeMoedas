@@ -24,7 +24,19 @@ public class Conversao {
         return valorMoedaBase;
     }
 
+    public float getValorMoedaBuscada() {
+        return valorMoedaBuscada;
+    }
+
     public void setValorMoedaBuscada(float valorMoedaBuscada) {
         this.valorMoedaBuscada = valorMoedaBuscada;
+    }
+
+    @Override
+    public String toString() {
+        return "\n************************************************\n" +
+                moedaBase + " == > " + moedaBuscada + "\n"
+                +valorMoedaBase + " == > " + valorMoedaBuscada +
+                "\n************************************************\n";
     }
 }

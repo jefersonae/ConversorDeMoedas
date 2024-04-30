@@ -15,7 +15,7 @@ public class Principal {
         byte opcaoMoedaBuscada;
         float valorMoeda;
         String[] listaDeMoedas = {"USD","EUR","BRL","CAD","VES","JPY","KRW","CNY","ARS"};
-        List listaDeConversoes = new ArrayList<Conversao>();
+        var listaDeConversoes = new ArrayList<Conversao>();
 
         Scanner ler = new Scanner(System.in);
         Menu menu = new Menu();
@@ -35,13 +35,15 @@ public class Principal {
                 menu.mostraValor();
                 valorMoeda = ler.nextFloat();
                 try {
-                    Conversao conversao =  new Conversao(listaDeMoedas[opcaoMoedaBase],listaDeMoedas[opcaoMoedaBuscada],valorMoeda);
+                    Conversao conversao =  new Conversao(listaDeMoedas[opcaoMoedaBase-1],listaDeMoedas[opcaoMoedaBuscada-1],valorMoeda);
                     buscaConversao.buscaValores(conversao);
+                    listaDeConversoes.add(conversao);
+                    System.out.println("O valor é "+conversao.getValorMoedaBuscada());
                 }catch (Exception e){
                     System.out.println(e.getMessage());
                 }
             }else if (opcao == 2){
-
+                System.out.println(listaDeConversoes);
             }
         }while(opcao != 3);
         System.out.println("Finalizando......");
