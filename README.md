@@ -9,7 +9,7 @@
   <li>Java 8+</li>
   <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson">Gson do google</a></li>
 </ul>
-<h2>Como funciona?</h2>
+<h2>:hammer:Como funciona?</h2>
 <p>
   <ul>
     <li>Selecione a moeda que deseja inserir</li>
