@@ -15,10 +15,8 @@
   <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson">Gson do google</a></li>
 </ul>
 <h2>:hammer:Como funciona?</h2>
-<p>
-  <ul>
+<ul>
     <li>Selecione a moeda incial</li>
     <li>Digite o valor que deseja transformar</li>
     <li>Informe a moeda que queira converter</li>
-  </ul>
-</p>
+</ul>
