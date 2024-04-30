@@ -1,5 +1,7 @@
 ![LogoConversorMoedas](https://github.com/jefersonae/ConversorDeMoedas/assets/38109358/0655eb2d-9c5c-4012-9102-5984f33b3154)
 <h1>:open_file_folder:Conversor de Moedas</h1>
+<a href="https://docs.oracle.com/en/java/javase/20/"><img height= "35" src= "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></a>
+<a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html"><img height= "35" src= "https://img.shields.io/badge/JDK-007396?style=for-the-badge&logo=java&logoColor=white"></a>
 <h2>:clipboard:Breve Resumo</h2>
 <p>
   Projeto criado por sugestão do programa Oracle One T6 em parceria com a Alura como Desafio da Trilha Orientação a Objetos em Java. O objetivo é realizar a troca de moedas.
